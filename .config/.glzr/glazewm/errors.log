@@ -1,0 +1,57 @@
+[2m2025-06-18T06:30:12.950210Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T06:30:34.828860Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T06:32:41.085966Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"C:\Program Files\WezTerm\wezterm.exe"'.
+[2m2025-06-18T06:33:42.300497Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:35:04.575702Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:36:01.634955Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to execute 'wezterm-gui'.
+
+Error: The operation was canceled by the user. (0x800704C7)
+[2m2025-06-18T06:37:05.954196Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm-gui.exe''.
+[2m2025-06-18T06:37:39.651962Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm-gui.exe''.
+[2m2025-06-18T06:41:19.754129Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:41:45.162740Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:41:47.882099Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:41:49.834364Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:41:51.866125Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:41:53.402404Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\WezTerm\wezterm.exe''.
+[2m2025-06-18T06:43:41.137635Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[24].commands: unrecognized subcommand
+ at line 253 column 15
+[2m2025-06-18T17:10:20.853436Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-18T17:10:22.551023Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-18T17:10:23.401684Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-18T17:10:24.527168Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-18T17:10:25.287663Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-18T17:10:25.837401Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-19T13:00:53.592820Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:02:50.843139Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: invalid type: string "exec 'C:\\Program Files\\Zen Browser\\zen.exe'", expected a sequence at line 263 column 15
+[2m2025-06-19T13:06:09.941495Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[28].commands: invalid type: string "exec '%LOCALAPPDATA%\\BraveSoftware\\Brave-Browser\\Application\\brave.exe'", expected a sequence at line 267 column 15
+[2m2025-06-19T13:10:16.877260Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:10:58.793954Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''C:\Program Files\Zen Browser\zen.exe''.
+[2m2025-06-19T13:14:19.935143Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"C:\Program Files\Zen Browser\zen.exe"'.
+[2m2025-06-19T13:14:56.128005Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Command doesn't have an ending `"`: '"C:\PROGRA~1\ZENBROW~1\zen.exe"'.
+[2m2025-06-19T13:44:49.305073Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:47:33.434325Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:47:46.297225Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:48:53.743996Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:49:05.177804Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:50:20.672156Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[27].commands: unrecognized subcommand
+ at line 263 column 15
+[2m2025-06-19T13:55:40.752828Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''%LOCALAPPDATA%\BraveSoftware\Brave-Browser\Application\brave.exe''.
+[2m2025-06-19T14:48:14.226021Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Program path is not valid for command ''%APPDATA%/Spotify/Spotify.exe''.
+[2m2025-06-20T07:07:32.162605Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-20T07:07:33.666794Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-20T07:07:34.907870Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-20T13:13:51.042707Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-20T13:13:52.535655Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-20T13:13:53.656947Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
