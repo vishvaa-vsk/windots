@@ -1,329 +1,230 @@
-# 🌸 Windots - Windows Configuration Files
+<h1 align="center">🌾 windots</h1>
+
+<p align="center">
+   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
+</p>
 
 <div align="center">
-
-![Catppuccin Mocha](https://github.com/catppuccin/catppuccin/raw/main/assets/palette/demo.png)
-
-**A beautiful and cohesive Windows desktop configuration featuring the Catppuccin Mocha theme**
-
-*Bringing the warmth of Catppuccin to your Windows workflow*
-
+<p>
+<a href="https://github.com/vishvaa-vsk/windots/"><img src="https://img.shields.io/github/repo-size/vishvaa-vsk/windots?style=for-the-badge&logo=hyprland&logoColor=f9e2af&label=Size&labelColor=302D41&color=f9e2af" alt="REPO SIZE"></a>&nbsp;&nbsp;
+<a href="https://github.com/vishvaa-vsk/windots/commits/master/"><img src="https://img.shields.io/github/last-commit/vishvaa-vsk/windots?style=for-the-badge&logo=github&logoColor=eba0ac&label=Last%20Commit&labelColor=302D41&color=eba0ac" alt="Last Commit"></a>&nbsp;&nbsp;
+<a href="https://github.com/vishvaa-vsk/windots/blob/master/LICENSE"><img src="https://img.shields.io/github/license/vishvaa-vsk/windots?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+</p>
 </div>
 
-## ✨ Overview
+<br>
+<!-- 
+![](assets/fetch.png)<br/><br/>
+![](assets/vscode.png)<br/><br/>
+![](assets/startpage.png)<br/><br/>
+![](assets/nvim.png)<br/> -->
 
-This repository contains my personal Windows configuration files (dotfiles) that create a unified, aesthetically pleasing desktop environment using the **Catppuccin Mocha** color scheme throughout all applications and tools.
+<hr>
 
-### 🎨 Theme Philosophy
+## 🌷 About
 
-All configurations are built around the **Catppuccin Mocha** color palette, ensuring visual consistency across:
-- 🖥️ **Window Management** - GlazeWM with Mocha colors
-- 📊 **System Bar** - YASB with custom Mocha styling and fluent aesthetics
-- 🖥️ **Terminals** - WezTerm and Windows Terminal
-- 🌐 **Browsers** - Brave and Zen with Catppuccin extensions
-- ⚡ **Code Editor** - VS Code with Catppuccin + One Dark Pro
-- 📋 **System Info** - Custom Fastfetch configuration
-- 🐚 **Shell** - Enhanced PowerShell profile
+Hi there! 👋
 
-## 🚀 Quick Installation
+Welcome to **windots** — a curated set of dotfiles designed to deliver a visually appealing, Unix-inspired workflow on Windows.
 
-### Prerequisites
+This project is focused on refining and optimizing the Windows experience, making it more streamlined and reminiscent of Unix systems. From tiling window managers to terminal enhancements and workflow tweaks, everything here is crafted to make Windows more efficient and enjoyable.
 
-Ensure you have the following tools installed:
+## ✨ Features
 
-```powershell
-# Install Scoop (package manager)
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-irm get.scoop.sh | iex
+- 🪟 **Glazewm** configuration
+- ❄️ Elegant **YASB** setup
+- 🌸 Streamlined **VSCode** environment
+- \>_ Modern **WezTerm** configuration
+- 🐚 **Powershell** customization
+- 🎨 **Ohmyposh** theming
+- ⚙️ Lightweight **fastfetch** setup
+- 🚀 **Flow launcher** with **Catppuccin** styling
+- 🐈 [**Catppuccin**](https://github.com/catppuccin) theme integration throughout
 
-# Install essential tools
-scoop install git
-scoop bucket add extras
-scoop install glazewm yasb wezterm fastfetch
+<hr/>
+
+## 🌸 Core System Info
+
+- **OS:** [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) 🪟 + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/) 🐧
+- **WM:** [GlazeWM](https://github.com/glzr-io/glazewm) ✨
+- **Shell:** [powershell](https://learn.microsoft.com/en-us/powershell/) / [zsh](https://zsh.sourceforge.io/) 🐚
+- **Terminal Emulator:** [WezTerm](https://wezfurlong.org/wezterm/) >_
+- **Panel:** [YASB](https://github.com/amnweb/yasb) ❄️
+- **Text Editor:** [VSCode](https://code.visualstudio.com/)
+- **App Launcher:** [Flow launcher](https://www.flowlauncher.com/) 🚀
+- **File Manager:** [File explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer)
+- **Browser:** [Brave Browser](https://brave.com) 🌐
+- **Colorscheme:** [Catppuccin](https://catppuccin.com/) 🎨
+
+<hr/>
+
+### ℹ️ Full System Details
+
+Below is a comprehensive overview of my setup:
+
+> [!NOTE]
+> Some applications have their **configuration files** included in this repository, indicated by ⚙️.
+
+#### 🪟 System
+
+| 📚 Entry                  | ✨ App                                                                                                                                    |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **OS**                   | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/)                |
+| **Window Manager**       | [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/glazewm/config.yaml)     |
+| **Bar**                  | [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/yasb/)                          |
+| **Application Launcher** | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/catppuccin/flow-launcher/blob/main/themes/Catppuccin%20Mocha.xaml) |
+
+#### 🖥️ CLI/TUI Applications (Configs available in [**dotfiles**](https://github.com/vishvaa-vsk/dotfiles))
+
+| 📚 Entry                  | ✨ App                                                                                                                                                                                                                                                                                                        |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Shell**                | [zsh](https://zsh.sourceforge.io/)  / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
+| **Terminal Emulator**    | [WezTerm](https://wezfurlong.org/wezterm/) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/wezterm/wezterm.lua)                                                                                                                                                                                                                         |
+| **Shell Prompt**         | [ohmyposh](https://ohmyposh.dev/) [⚙️](https://github.com/JanDeDobbeleer/oh-my-posh/blob/master/themes/catppuccin.omp.json)                                                                                                                                                                                                                              |
+| **Text Editor**          | [VSCode](https://code.visualstudio.com/)                                                                                                                                                                                                                                          |
+| **LS Replacement**       | [eza](https://github.com/eza-community/eza)                                                                                                                                                                                                                                                                                                          |
+| **Cat Replacement**      | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/vishvaa-vsk/dotfiles/tree/master/.config/bat) |
+| **System Fetch**         | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/vishvaa-vsk/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
+
+
+#### 🖱️ GUI Applications
+
+| 📚 Entry                  | ✨ App                                                                                                                                                                                                                            |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/)                                                                                                   |
+| **Music Player**         | [Spotify](https://open.spotify.com/) (customized with [Spicetify](https://spicetify.app/))                                                                                                                                        |
+| **Web Browser**          | [Brave Browser](https://brave.com) with [Catppuccin Mocha](https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/cmpdlhmnmjhihmcfnigoememnffkimlk) theme 🏡|
+| **File Manager**         | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer)                                                                                          |
+
+#### 🔍 Miscellaneous
+
+| 📚 Entry              | ✨ App                                                         |
+| -------------------- | ------------------------------------------------------------- |
+| **Colorscheme**      | [Catppuccin Mocha](https://catppuccin.com)                  |
+| **Font**             | [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
+<hr>
+
+## 🔧 Setup
+
+> [!WARNING]
+> Please **backup your current configuration files** before proceeding.  
+> Some settings may overwrite your existing setup, so ensure you merge or restore as needed.
+
+### 🪟 GlazeWM
+
+> [!NOTE]  
+> This configuration is compatible with the latest **GlazeWM** release and uses **YASB** instead of Zebar.
+
+- **Download and install** [**GlazeWM**](https://github.com/glzr-io/glazewm/releases/).
+
+- Copy [`windots/.config/glazewm/config.yaml`](.config/glazewm/config.yaml) to `%USERPROFILE%\.glzr\glazewm\config.yaml`
+
+- **Restart GlazeWM** to apply the configuration.
+
+### 📊 YASB (Yet Another Status Bar)
+
+> [!NOTE]
+> For proper icon display, use a Nerd Font. I recommend **JetBrainsMono Nerd Font**; if you use another, update the font in YASB's `styles.css`.
+
+- **Download and install** [**YASB**](https://github.com/amnweb/yasb/releases/).
+
+- Copy [`windots/.config/yasb/`](.config/yasb/) to `%USERPROFILE%\.config\yasb\`
+
+- **Restart YASB** to load the new configuration.
+
+### 🌐 Browser
+
+> [!NOTE]
+> This setup utilizes **Brave Browser** with the **Catppuccin Mocha** theme extension.
+
+- **Install** [**Brave Browser**](https://brave.com/)
+
+- **Add the Catppuccin Mocha theme extension**:
+   - [Catppuccin Chrome Theme - Mocha](https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/cmpdlhmnmjhihmcfnigoememnffkimlk)
+
+- **Optional:** Set [startpage](https://github.com/vishvaa-vsk/startpage) as your homepage for a clean, themed look.
+
+### 🚀 Flow Launcher
+
+- **Install** [**Flow Launcher**](https://www.flowlauncher.com/)
+
+- Copy [`windots/.config/FlowLauncher/settings.json`](.config/FlowLauncher/settings.json) to `%APPDATA%\FlowLauncher\Settings\Settings.json`
+
+- **Restart Flow Launcher** to apply changes.
+
+## \>_ Terminal & Shell Setup
+
+### 🖥️ WezTerm
+
+- **Install** [**WezTerm**](https://wezfurlong.org/wezterm/)
+
+- Copy [`windots/.config/wezterm/wezterm.lua`](.config/wezterm/wezterm.lua) to `%USERPROFILE%\.config\wezterm\wezterm.lua`
+
+- **Restart WezTerm** to activate the configuration.
+
+### 🐚 PowerShell
+
+- Copy [`windots/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1`](.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) to `%USERPROFILE%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
+
+- Restart PowerShell to load the new profile.
+
+### 🎨 Oh My Posh
+
+- **Install** [**Oh My Posh**](https://ohmyposh.dev/docs/installation/windows) via winget:
+
+```bash
+winget install JanDeDobbeleer.OhMyPosh -s winget
 ```
 
-### Installation Steps
+- Copy [`windots/.config/ohmyposh/zen.toml`](.config/ohmyposh/zen.toml) to `%USERPROFILE%\.config\ohmyposh\zen.toml`
 
-1. **Clone the repository**
-   ```powershell
-   git clone https://github.com/yourusername/windots.git
-   cd windots
-   ```
+- **Optional:** If you use my PowerShell profile, you don't need to set the theme manually. The following command is already included and runs at PowerShell startup:
 
-2. **Backup existing configurations** (optional but recommended)
-   ```powershell
-   # Backup existing configs
-   Move-Item $env:USERPROFILE\.config $env:USERPROFILE\.config.backup -ErrorAction SilentlyContinue
-   ```
-
-3. **Install configurations**
-   ```powershell
-   # Copy configurations to user directory
-   Copy-Item .config $env:USERPROFILE\ -Recurse -Force
-   
-   # Copy PowerShell profile
-   $profileDir = Split-Path $PROFILE -Parent
-   New-Item -ItemType Directory -Path $profileDir -Force
-   Copy-Item .config\Powershell\Microsoft.PowerShell_profile.ps1 $PROFILE -Force
-   ```
-
-4. **Start GlazeWM**
-   ```powershell
-   # GlazeWM will automatically start YASB as configured
-   glazewm
-   ```
-
-## 🛠️ Components Overview
-
-### 🪟 Window Manager - GlazeWM
-- **Tiling window manager** for Windows with i3-like functionality
-- **Catppuccin Mocha color scheme** for all UI elements
-- **Automatic YASB integration** - starts and stops with the WM
-- **Smooth animations** and modern window handling
-
-**Key Features:**
-- Dynamic workspace management
-- Custom keybindings for efficient workflow
-- Float rules for specific applications
-- Integrated with system taskbar replacement
-
-### 📊 System Bar - YASB
-- **Custom system bar** replacing the default Windows taskbar
-- **Fluent design aesthetics** with Catppuccin Mocha colors
-- **Useful widgets** for system monitoring and quick access
-
-**Included Widgets:**
-- 🏠 Workspace indicator with GlazeWM integration
-- 🖥️ System resources (CPU, RAM, Network)
-- 🔊 Volume control with visual feedback
-- 🗓️ Date and time display
-- 🔋 Battery status (for laptops)
-- 🌐 Network connectivity status
-- 🎵 Media controls
-
-### 💻 Terminals
-
-#### Primary: WezTerm
-- **GPU-accelerated terminal** with excellent performance
-- **Catppuccin Mocha theme** built-in
-- **Enhanced font rendering** with ligature support
-- **Tab and pane management**
-
-#### Secondary: Windows Terminal
-- **Microsoft's modern terminal**
-- **Custom Catppuccin Mocha color scheme**
-- **Integration with PowerShell profile**
-- **Backup option** when WezTerm is unavailable
-
-### 🐚 PowerShell Profile
-- **Enhanced PowerShell experience** with custom prompt
-- **Fast startup** with optimized module loading
-- **Catppuccin Mocha syntax highlighting**
-- **Git integration** with posh-git
-- **Beautiful icons** with Terminal-Icons
-- **Efficient key bindings** for improved productivity
-
-**Features:**
-- Smart tab completion
-- History search with arrow keys
-- Automatic module installation
-- Custom aliases and functions
-- Performance optimized startup
-
-### 📋 System Information - Fastfetch
-- **Modern system fetch tool** with custom configuration
-- **Minimalist design** featuring Windows 11 logo
-- **Catppuccin Mocha color scheme** for all elements
-- **Essential system information** display
-
-**Displayed Information:**
-- Operating system and kernel
-- System uptime
-- Shell and terminal information
-- CPU and memory details
-- Disk usage statistics
-
-### 🌐 Browser Integration
-
-#### Brave Browser
-- **Catppuccin Mocha theme** extension installed
-- **Privacy-focused** with built-in ad blocking
-- **Consistent color scheme** with desktop environment
-
-#### Zen Browser
-- **Firefox-based** with enhanced privacy features
-- **Catppuccin Mocha theme** for cohesive experience
-- **Minimalist interface** design
-
-### ⚡ VS Code Configuration
-- **Catppuccin + One Dark Pro** theme combination
-- **Perfect balance** of warmth and contrast
-- **Consistent** with terminal and system colors
-- **Enhanced readability** for long coding sessions
-
-## 🎨 Color Palette
-
-The entire configuration uses the **Catppuccin Mocha** color palette:
-
-```yaml
-# Primary Colors
-rosewater: "#f5e0dc"  # Light peachy pink
-flamingo:  "#f2cdcd"  # Light salmon
-pink:      "#f5c2e7"  # Soft pink
-mauve:     "#cba6f7"  # Purple
-red:       "#f38ba8"  # Warm red
-maroon:    "#eba0ac"  # Dark red
-peach:     "#fab387"  # Orange
-yellow:    "#f9e2af"  # Warm yellow
-green:     "#a6e3a1"  # Soft green
-teal:      "#94e2d5"  # Cyan-green
-sky:       "#89dceb"  # Light blue
-sapphire:  "#74c7ec"  # Bright blue
-blue:      "#89b4fa"  # Primary blue
-lavender:  "#b4befe"  # Light purple
-
-# Text Colors
-text:      "#cdd6f4"  # Primary text
-subtext1:  "#bac2de"  # Secondary text
-subtext0:  "#a6adc8"  # Tertiary text
-
-# Surface Colors
-surface2:  "#585b70"  # Dark surface
-surface1:  "#45475a"  # Darker surface
-surface0:  "#313244"  # Primary surface
-base:      "#1e1e2e"  # Background
-mantle:    "#181825"  # Dark background
-crust:     "#11111b"  # Darkest background
+```bash
+oh-my-posh init pwsh --config "$env:USERPROFILE\.config\ohmyposh\zen.toml" | Invoke-Expression
 ```
 
-## ⚙️ Configuration Details
+### ⚙️ Fastfetch
 
-### File Structure
-```
-windots/
-├── .config/
-│   ├── .glzr/glazewm/
-│   │   └── config.yaml          # GlazeWM configuration
-│   ├── yasb/
-│   │   ├── config.yaml          # YASB bar configuration
-│   │   └── styles.css           # Custom Mocha styling
-│   ├── wezterm/
-│   │   └── .wezterm.lua         # WezTerm configuration
-│   ├── windows-terminal/
-│   │   └── settings.json        # Windows Terminal settings
-│   ├── fastfetch/
-│   │   └── config.jsonc         # System fetch configuration
-│   └── Powershell/
-│       └── Microsoft.PowerShell_profile.ps1
-└── README.md
+- **Install** [**fastfetch**](https://github.com/fastfetch-cli/fastfetch) using **winget**:
+
+```bash
+winget install fastfetch
 ```
 
-### Key Features per Component
+- Copy [`windots/.config/fastfetch/config.jsonc`](.config/fastfetch/config.jsonc) to `%USERPROFILE%\.config\fastfetch\config.conf`
+- Copy [`windots/.config/fastfetch/windows.txt`](.config/fastfetch/windows.txt) to `%USERPROFILE%\.config\fastfetch\windows.txt`
 
-#### GlazeWM Configuration
-- **Workspace management**: 9 workspaces with smart application routing
-- **Window rules**: Specific applications auto-assigned to workspaces
-- **Keybindings**: Intuitive shortcuts for window and workspace management
-- **Integration**: Seamless YASB startup and shutdown
+- **Run fastfetch** to view system info.
 
-#### YASB Configuration
-- **Blur effects**: Modern translucent appearance
-- **Responsive design**: Adapts to screen resolution
-- **Widget customization**: Each widget styled with Mocha colors
-- **Performance**: Lightweight with minimal resource usage
+<hr/>
 
-#### Terminal Configurations
-- **Font**: Cascadia Code NF with ligatures
-- **Color accuracy**: True Catppuccin Mocha implementation
-- **Performance**: Optimized for speed and responsiveness
-- **Features**: Tab management, splits, and custom key bindings
+## 🖼️ ‎Gallery
 
-## 🔧 Customization
+<hr>
 
-### Modifying Colors
-All color definitions are centralized in each configuration file. Look for the Catppuccin color variables at the top of:
-- `glazewm/config.yaml`
-- `yasb/styles.css`
-- `wezterm/.wezterm.lua`
+## 📌 Todo
 
-### Adding Widgets to YASB
-Edit `yasb/config.yaml` to add new widgets. Available widgets include:
-- Weather information
-- Spotify/media controls
-- System performance graphs
-- Custom PowerShell script outputs
+- [ ] Create an **install script** for easier configuration setup.
+- [ ] Add **detailed README files** in each config directory with usage instructions.
 
-### PowerShell Customization
-The profile includes functions for easy customization:
-- Add aliases in the "Custom Aliases" section
-- Modify prompt appearance
-- Add new modules to the auto-install list
+## 🎉 Credits
 
-## 🆘 Troubleshooting
+A huge thank you to the communities of **r/unixporn**, **r/desktops**, **GlazeWM**, **YASB**, **Komorebi**, **Catppuccin**, and many others for their inspiration and contributions!
 
-### Common Issues
+Special mentions for resources and projects that were instrumental in this setup:
 
-1. **GlazeWM not starting**
-   ```powershell
-   # Check if GlazeWM is in PATH
-   glazewm --version
-   
-   # If not found, reinstall via Scoop
-   scoop uninstall glazewm
-   scoop install glazewm
-   ```
+- [**orxngc**](https://github.com/orxngc/walls-catppuccin-mocha) for the stunning **catppuccin-themed wallpapers** 🖼️
+- [**GlazeWM**](https://github.com/glzr-io/glazewm) for an outstanding **tiling window manager** that boosts productivity ✨
+- [**YASB**](https://github.com/amnweb/yasb) for a **versatile and customizable status bar** 🚀
+- [**Catppuccin**](https://catppuccin.com) for providing the **best color palette** 🖌️
 
-2. **YASB not appearing**
-   ```powershell
-   # Manually start YASB to check for errors
-   yasb
-   
-   # Check configuration syntax
-   python -m yasb --validate-config
-   ```
+<br>
 
-3. **PowerShell profile errors**
-   ```powershell
-   # Reset profile if corrupted
-   Remove-Item $PROFILE -Force
-   Copy-Item .config\Powershell\Microsoft.PowerShell_profile.ps1 $PROFILE
-   ```
+Thank you! 💖
 
-4. **Font issues in terminals**
-   - Install **Cascadia Code NF** from [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/releases)
-   - Ensure font is selected in terminal settings
+<hr>
 
-### Performance Optimization
-
-- **Disable unnecessary YASB widgets** if experiencing lag
-- **Reduce blur effects** in YASB configuration for older hardware
-- **Limit PowerShell history** size in profile for faster startup
-
-## 📚 Additional Resources
-
-- [Catppuccin Theme](https://github.com/catppuccin/catppuccin) - Main theme repository
-- [GlazeWM Documentation](https://github.com/glzr-io/glazewm) - Window manager docs
-- [YASB Documentation](https://github.com/denBot/yasb) - System bar documentation
-- [WezTerm Documentation](https://wezfurlong.org/wezterm/) - Terminal configuration guide
-
-## 🤝 Contributing
-
-Feel free to:
-- **Fork this repository** and adapt it to your needs
-- **Submit issues** for bugs or improvement suggestions
-- **Share your modifications** to help others
-- **Suggest new widgets** or configuration improvements
-
-## 📄 License
-
-This configuration is released under the MIT License. Feel free to use, modify, and distribute as needed.
-
----
-
-<div align="center">
-
-**Enjoy your beautiful, cohesive Windows desktop! 🌸**
-
-*Made with ❤️ and lots of ☕*
-
-</div>
+<p align="center">
+   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
