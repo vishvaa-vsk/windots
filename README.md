@@ -1,4 +1,4 @@
-<h1 align="center">🌾 windots</h1>
+<h1 align="center">Aesthetic Windows Setup</h1>
 
 <p align="center">
    <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
