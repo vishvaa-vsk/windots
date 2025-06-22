@@ -15,6 +15,7 @@
 <br>
 
 ![](assets/Wezterm_fileExplorer.png)<br/><br/>
+![](assets/brave_stylus_github.png)<br/><br/>
 ![](assets/VSCode.png)<br/><br/>
 ![](assets/Spotify.png)<br/><br/>
 ![](assets/FlowLauncher.png)<br/>
@@ -93,7 +94,7 @@ Below is a comprehensive overview of my setup:
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/)                                                                                                   |
 | **Music Player**         | [Spotify](https://open.spotify.com/) (customized with [Spicetify](https://spicetify.app/))                                                                                                                                        |
-| **Web Browser**          | [Brave Browser](https://brave.com) with [Catppuccin Mocha](https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/cmpdlhmnmjhihmcfnigoememnffkimlk) theme 🏡|
+| **Web Browser**          | [Brave Browser](https://brave.com) with [Catppuccin Mocha](https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/cmpdlhmnmjhihmcfnigoememnffkimlk) theme|
 | **File Manager**         | [File Explorer](https://www.microsoft.com/en-us/windows/tips/file-explorer)                                                                                          |
 
 #### 🔍 Miscellaneous
@@ -140,9 +141,9 @@ Below is a comprehensive overview of my setup:
 - **Install** [**Brave Browser**](https://brave.com/)
 
 - **Add the Catppuccin Mocha theme extension**:
-   - [Catppuccin Chrome Theme - Mocha](https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/cmpdlhmnmjhihmcfnigoememnffkimlk)
+   - [Catppuccin Chrome Theme - Mocha](https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/bkkmolkhemgaeaeggcmfbghljjjoofoh)
 
-- **Optional:** Set [startpage](https://github.com/vishvaa-vsk/startpage) as your homepage for a clean, themed look.
+- **Optional:** Set [startpage](https://chromewebstore.google.com/detail/bonjourr-%C2%B7-minimalist-sta/dlnejlppicbjfcfcedcflplfjajinajd) as your homepage for a clean look.
 
 ### 🚀 Flow Launcher
 
