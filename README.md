@@ -13,11 +13,11 @@
 </div>
 
 <br>
-<!-- 
-![](assets/fetch.png)<br/><br/>
-![](assets/vscode.png)<br/><br/>
-![](assets/startpage.png)<br/><br/>
-![](assets/nvim.png)<br/> -->
+
+![](assets/Wezterm_fileExplorer.png)<br/><br/>
+![](assets/VSCode.png)<br/><br/>
+![](assets/Spotify.png)<br/><br/>
+![](assets/FlowLauncher.png)<br/>
 
 <hr>
 
@@ -67,16 +67,16 @@ Below is a comprehensive overview of my setup:
 
 #### 🪟 System
 
-| 📚 Entry                  | ✨ App                                                                                                                                    |
+|  Name                  |  App                                                                                                                                    |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | **OS**                   | [Windows 11](https://www.microsoft.com/en-in/windows/windows-11) + [WSL2](https://learn.microsoft.com/en-us/windows/wsl/)                |
 | **Window Manager**       | [GlazeWM](https://github.com/glzr-io/glazewm) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/glazewm/config.yaml)     |
 | **Bar**                  | [YASB](https://github.com/amnweb/yasb) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/yasb/)                          |
 | **Application Launcher** | [Flow Launcher](https://www.flowlauncher.com/) [⚙️](https://github.com/catppuccin/flow-launcher/blob/main/themes/Catppuccin%20Mocha.xaml) |
 
-#### 🖥️ CLI/TUI Applications (Configs available in [**dotfiles**](https://github.com/vishvaa-vsk/dotfiles))
+#### 🖥️ CLI/TUI Applications
 
-| 📚 Entry                  | ✨ App                                                                                                                                                                                                                                                                                                        |
+|  Name                  |  App                                                                                                                                                                                                                                                                                                        |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Shell**                | [zsh](https://zsh.sourceforge.io/)  / [pwsh](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh?view=powershell-7.4) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1) |
 | **Terminal Emulator**    | [WezTerm](https://wezfurlong.org/wezterm/) [⚙️](https://github.com/vishvaa-vsk/windots/blob/master/.config/wezterm/wezterm.lua)                                                                                                                                                                                                                         |
@@ -89,7 +89,7 @@ Below is a comprehensive overview of my setup:
 
 #### 🖱️ GUI Applications
 
-| 📚 Entry                  | ✨ App                                                                                                                                                                                                                            |
+|  Name                  |  App                                                                                                                                                                                                                            |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Fallback Text Editor** | [VSCode](https://code.visualstudio.com/)                                                                                                   |
 | **Music Player**         | [Spotify](https://open.spotify.com/) (customized with [Spicetify](https://spicetify.app/))                                                                                                                                        |
@@ -98,7 +98,7 @@ Below is a comprehensive overview of my setup:
 
 #### 🔍 Miscellaneous
 
-| 📚 Entry              | ✨ App                                                         |
+|  Name              |  App                                                         |
 | -------------------- | ------------------------------------------------------------- |
 | **Colorscheme**      | [Catppuccin Mocha](https://catppuccin.com)                  |
 | **Font**             | [JetBrainsMono Nerd Font](https://www.jetbrains.com/lp/mono/) |
@@ -197,12 +197,6 @@ winget install fastfetch
 
 - **Run fastfetch** to view system info.
 
-<hr/>
-
-## 🖼️ ‎Gallery
-
-<hr>
-
 ## 📌 Todo
 
 - [ ] Create an **install script** for easier configuration setup.
@@ -214,6 +208,7 @@ A huge thank you to the communities of **r/unixporn**, **r/desktops**, **GlazeWM
 
 Special mentions for resources and projects that were instrumental in this setup:
 
+- [**ashish0kumar**](https://github.com/ashish0kumar/windots) for the initial inspiration and some of the configurations used in this project 🌟
 - [**orxngc**](https://github.com/orxngc/walls-catppuccin-mocha) for the stunning **catppuccin-themed wallpapers** 🖼️
 - [**GlazeWM**](https://github.com/glzr-io/glazewm) for an outstanding **tiling window manager** that boosts productivity ✨
 - [**YASB**](https://github.com/amnweb/yasb) for a **versatile and customizable status bar** 🚀
